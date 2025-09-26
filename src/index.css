@@ -1,7 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Bagel+Fat+One&family=Chicle&family=Trade+Winds&family=Work+Sans:ital,wght@0,100..900;1,100..900&family=Zalando+Sans:ital,wght@0,200..900;1,200..900&display=swap');
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+:root {
+  --body-font: "Zalando Sans", sans-serif;
 }
 html {
   scroll-behavior: smooth;
@@ -9,6 +14,9 @@ html {
 body {
   background: black;
   color: white;
+  font-family: var(--body-font);
+  font-optical-sizing: auto;
+  text-transform: uppercase;
 }
 a {
   text-decoration: none;
