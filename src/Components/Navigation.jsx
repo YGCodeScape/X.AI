@@ -2,8 +2,8 @@ import React from 'react'
 
 const Navigation = () => {
   return (
-    <div> 
-
+    <div> Navigation bar
+        <h1>GROK AI</h1>
     </div>
   )
 }
