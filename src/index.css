@@ -24,3 +24,9 @@ img {
   max-width: 100%;
   display: block;
 }
+.nav-hold {
+  padding: 40px 55px;
+}
+button {
+  padding: 8px 22px;
+}
