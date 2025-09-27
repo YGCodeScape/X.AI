@@ -3,7 +3,6 @@ import React from 'react'
 const Navigation = () => {
 
 
-
   return (
     <div>
       <div className='w-full h-[10vh] flex flex-col items-center'>
@@ -15,20 +14,14 @@ const Navigation = () => {
                1H17.3709ZM18.1555 7.76374V23H21.7067V2.5818L18.1555 7.76374Z" fill="currentColor">
              </path>
                </svg>
-               <h3 className="text-[0.9rem] uppercase opacity-50 cursor-pointer hover:opacity-100 ">Grok</h3>
-               <h3 className="text-[0.9rem] uppercase opacity-50 cursor-pointer hover:opacity-100 ">api</h3>
+               <h3 className="h-show-tag text-[0.9rem] uppercase opacity-50 cursor-pointer hover:opacity-100 ">Grok</h3>
+               <h3 className="h-show-tag text-[0.9rem] uppercase opacity-50 cursor-pointer hover:opacity-100 ">api</h3>
                <h3 className="text-[0.9rem] uppercase opacity-50 cursor-pointer hover:opacity-100 ">company</h3>
                <h3 className="text-[0.9rem] uppercase opacity-50 cursor-pointer hover:opacity-100 ">colossus</h3>
                <h3 className="text-[0.9rem] uppercase opacity-50 cursor-pointer hover:opacity-100 ">careers</h3>
                <h3 className="text-[0.9rem] uppercase opacity-50 cursor-pointer hover:opacity-100 ">news</h3>
            </div>
            <button className="btn text-[0.9rem] uppercase border-1 border-white/50  rounded-[20px] cursor-pointer">try grok</button>
-       </div>
-       <div className="hidden-nav flex gap-8 w-full border-2 border-white">
-          <h3>for everyone</h3>
-          <h3>for businesses</h3>
-          <h3>for government</h3>
-          <h3>for developers</h3>
        </div>
       </div>
     </div>
