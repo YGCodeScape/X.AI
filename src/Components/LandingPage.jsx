@@ -11,9 +11,13 @@ const LandingPage = () => {
              playsInline
              src="./bg-fog.mp4"
           />
-          <div className="land-content w-full h-[200vh] bg-red-700">
+          <div className="land-main absolute w-full h-[30vh] z-10 top-[50%]">
+             <h1 className="text-5xl font-bold">Welcome to Our Website</h1>
+             <p className="mt-4">We are glad to have you here. Explore our services and offerings.</p>
           </div>
        </div>
+          <div className=" w-full h-[100vh] bg-red-700">
+          </div>
     </div>
   )
 }
