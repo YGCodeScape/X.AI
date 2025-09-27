@@ -4,7 +4,7 @@ const Navigation = () => {
 
   return (
     <div>
-      <div className='w-full h-[10vh] flex flex-col items-center'>
+      <div className='w-full h-[10vh] flex flex-col items-center absolute fixed top-0 left-0 z-2'>
        <div className="nav-hold w-full h-[10vh] flex items-center justify-between">
            <div className="flex gap-8 items-center"> 
                <svg width="24" height="24" viewBox="0 0 24 24" className= "size-8" xmlns="http://www.w3.org/2000/svg">
