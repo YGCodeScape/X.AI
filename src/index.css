@@ -27,6 +27,12 @@ img {
 .nav-hold {
   padding: 40px 55px;
 }
+.hidden-nav {
+  padding: 20px 55px;
+}
+.nav-hold h3 {
+
+}
 button {
   padding: 8px 22px;
 }
