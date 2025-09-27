@@ -2,7 +2,6 @@ import React from 'react'
 
 const Navigation = () => {
 
-
   return (
     <div>
       <div className='w-full h-[10vh] flex flex-col items-center'>
@@ -21,7 +20,7 @@ const Navigation = () => {
                <h3 className="text-[0.9rem] uppercase opacity-50 cursor-pointer hover:opacity-100 ">careers</h3>
                <h3 className="text-[0.9rem] uppercase opacity-50 cursor-pointer hover:opacity-100 ">news</h3>
            </div>
-           <button className="btn text-[0.9rem] uppercase border-1 border-white/50  rounded-[20px] cursor-pointer">try grok</button>
+           <button className="btn text-[0.9rem] uppercase border-1 border-white/50 rounded-[20px] flex items-center cursor-pointer hover:bg-white/20">try grok</button>
        </div>
       </div>
     </div>
