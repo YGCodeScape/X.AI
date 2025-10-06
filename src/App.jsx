@@ -1,21 +1,16 @@
-import { useRef, useEffect, useState } from 'react'
-import { gsap } from "gsap";
+import React from 'react'
+import Navigation from './Components/Navigation'
+// import LandingPage from './Components/LandingPage'
+// import SuperGrok from './Components/SuperGrok'
+// import Footer from './Components/Footer'
 
-function App() {
-
-  const textRef = useRef();
-    useEffect(() => {
-    gsap.to(textRef.current, {
-         x: 100
-       });
-  }, []);
-
-
+const App = () => {
   return (
-    <div className='w-full h-screen bg-black text-white'>
-      <h1 ref={textRef} className="text-[2rem]"> hello react</h1>
-      <h2> hello word </h2>
-      <h1>good morning</h1>
+    <div>
+      <Navigation />
+      {/* <LandingPage />
+      <SuperGrok />
+      <Footer /> */}
     </div>
   )
 }
