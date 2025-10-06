@@ -15,6 +15,7 @@ function App() {
     <div className='w-full h-screen bg-black text-white'>
       <h1 ref={textRef} className="text-[2rem]"> hello react</h1>
       <h2> hello word </h2>
+      <h1>good morning</h1>
     </div>
   )
 }
