@@ -24,7 +24,6 @@ const Navigation = () => {
     };
   }, []);
 
-
   return (
     <div>
       <div ref={navbarRef} className='navbar-d w-full h-[10vh] fixed top-0 left-0 z-[99]'>
